@@ -7,6 +7,7 @@
   body::-webkit-scrollbar {
     background-color: white;
     width: 6px;
+    height: 6px;
   }
 
   body::-webkit-scrollbar-track {
@@ -20,6 +21,7 @@
   textarea::-webkit-scrollbar {
     background-color: white;
     width: 6px;
+    height: 6px;
   }
 
   textarea::-webkit-scrollbar-track {
@@ -41,6 +43,7 @@
   body::-webkit-scrollbar {
     background-color: #181a1b;
     width: 6px;
+    height: 6px;
   }
 
   body::-webkit-scrollbar-track {
@@ -54,6 +57,7 @@
   textarea::-webkit-scrollbar {
     background-color: #181a1b;
     width: 6px;
+    height: 6px;
   }
 
   textarea::-webkit-scrollbar-track {
