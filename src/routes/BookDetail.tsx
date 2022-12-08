@@ -120,7 +120,7 @@ const BookDetail = () => {
               </div>
               <h2 className="font-bold text-green-500">Available</h2>
             </div>
-            <p className="py-4 text-sm">
+            <p className="break-all py-4 text-sm">
               <HTMLBreakText>{bookDetail.description}</HTMLBreakText>
             </p>
           </div>
