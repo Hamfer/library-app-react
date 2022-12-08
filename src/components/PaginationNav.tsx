@@ -29,6 +29,7 @@ const PaginationNav: React.FC<Props> = ({
       {[...Array(totalPage).keys()]
         .map(val => (
           <button
+            key={val}
             type="button"
             disabled={page === val}
             className="mx-2 flex aspect-square w-10 items-center justify-center rounded-full px-4 py-2 hover:bg-black/10 disabled:!bg-white/20 disabled:text-white dark:hover:bg-white/10"
