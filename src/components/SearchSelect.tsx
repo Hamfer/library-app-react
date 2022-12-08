@@ -22,6 +22,7 @@ const SearchSelect = () => {
         options={books}
         getOptionValue={option => `${option.id}`}
         getOptionLabel={option => `${option.title} - ${option.author}`}
+        className="min-w-[16em]"
         classNames={{
           input: () => '!text-black dark:!text-white',
           singleValue: () => '!text-black dark:!text-white',
